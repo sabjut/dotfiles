@@ -1,0 +1,4 @@
+URxvt*foreground: #EEEEEE
+URxvt*background: #262222
+URxvt*font: xft:Source Code Pro:size=11
+URxvt*scrollBar: false
