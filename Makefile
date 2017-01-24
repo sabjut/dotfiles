@@ -1,6 +1,7 @@
 
 all:
-	cp .profile ~/
-	cp .bashrc 	~/
-	cp .vimrrc 	~/
+	cp .profile		~/
+	cp .bashrc		~/
+	cp .vimrc 		~/
+	cp .Xresources	~/
 
