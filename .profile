@@ -1,10 +1,11 @@
 export PATH=$PATH:~/.local/bin
 
-if [ -n ${SSH_CLIENT} ] || [ -n ${SSH_TTY} ]; then
-    export CONNECTION_TYPE=remote
+if [ -n "${SSH_CLIENT}" ] || [ -n "${SSH_TTY}" ] ; then
+    CONNECTION_TYPE="remote"
 else
-    export CONNECTION_TYPE=local
+    CONNECTION_TYPE="local"
 fi
+export CONNECTION_TYPE
 
 #run bashrc
 if [ -n "${BASH_VERSION}" ]; then
